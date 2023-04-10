@@ -9,9 +9,7 @@
 
     <artifactId>giantlizard-common-base</artifactId>
     <packaging>jar</packaging>
-
     <name>giantlizard-common-base</name>
-    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,10 +17,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>com.giantlizard</groupId>
+            <artifactId>giantlizard-common-base-entity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
     </dependencies>
 </project>
